@@ -4,7 +4,7 @@
   "description": "personal website example",
   "main": "server/bootstrap.js",
   "scripts": {
-    "start": "npm install && node gulp go"
+    "start": "node server/boostrap.js --port 80"
   },
   "repository": {
     "type": "git",
