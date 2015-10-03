@@ -4,11 +4,12 @@
   "description": "personal website example",
   "main": "server/bootstrap.js",
   "scripts": {
-    "start": "npm install && node ./node_modules/gulp/bin/gulp.js go"
+    //"start": "npm install && node ./node_modules/gulp/bin/gulp.js go"
+    "start": "npm install && node gulp go"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular-in-action/hello-world.git"
+    "url": "git+https://github.com/olynvalencia/olyn-home.git"
   },
   "keywords": [
     "angular2"
