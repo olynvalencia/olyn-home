@@ -1,0 +1,48 @@
+html, body {
+	height: 100%;	
+}
+
+body {
+	background-color: #848484;
+	color: #000000;
+}
+
+my-app>div.container-fluid,
+my-app>div.container-fluid>div.row {
+	height:100%;
+}
+
+my-sidebar>div {
+	background-color: #F2F2F2 !important;
+	min-height: 100% !important;
+	overflow-y: auto;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+my-sidebar button.btn-link,
+my-sidebar a {
+	color: #000000;
+}
+
+my-body>div {
+	min-height: 100% !important;
+}
+
+.img-center {
+	margin: 0 auto;
+}
+tweet-card>div {
+	padding-left: 7.5px !important;
+	padding-right: 7.5px !important;
+}
+
+tweet-card>div>div {
+	height: 175px;
+	background-color: #fff;
+	color: #55acee;
+	border-radius: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/*# sourceMappingURL=app.css.map */
