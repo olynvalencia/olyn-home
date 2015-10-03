@@ -1,0 +1,39 @@
+<div class="col-sm-4 col-md-3 col-lg-3">
+	<div class="row">
+		<img class="img-circle img-responsive img-center" src="/lib/images/headshot.jpeg" height="100" width="100" alt="">
+	</div>
+	<div class="row" style="text-align:center;padding-top:10px;">
+		<span> {{displayName}} </span>
+	</div>
+	<div class="row" style="text-align:center;padding:10px;font-size:12px;">
+		<p *ng-for="#paragraph of shortIntro">
+			{{paragraph}}
+		</p>
+	</div>
+	<div class="row" style="text-align:center;">
+		<a href="{{twitterHomeUrl}}" target="_blank"> 
+			<span class="fa-stack fa-2x">
+				<i class="fa fa-stack-2x fa-circle"></i>
+				<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+			</span>
+		</a>
+		<a href="{{instagramHomeUrl}}" target="_blank">
+			<span class="fa-stack fa-2x" >
+				<i class="fa fa-stack-2x fa-circle"></i>
+				<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+			</span>
+		</a>
+		<a href="{{facebookHomeUrl}}" target="_blank">
+			<span class="fa-stack fa-2x" >
+				<i class="fa fa-stack-2x fa-circle"></i>
+				<i class="fa fa-facebook-square fa-stack-1x fa-inverse"></i>
+			</span>
+		</a>
+		<a href="{{githubHomeUrl}}" target="_blank">
+			<span class="fa-stack fa-2x" >
+				<i class="fa fa-stack-2x fa-circle"></i>
+				<i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+			</span>
+		</a>
+	</div>
+</div>
